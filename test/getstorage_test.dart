@@ -19,7 +19,7 @@ void main() async {
         .setMockMethodCallHandler(
       channel,
       (MethodCall? methodCall) async {
-        if (methodCall?.method == 'getApplicationDocumentsDirectory') {
+        if (methodCall?.method == 'getApplicationSupportDirectory') {
           return '.';
         }
         return null;
@@ -147,7 +147,7 @@ void main() async {
 
 Future<File> _fileDb(
     {bool isBackup = false, String fileName = 'GetStorage'}) async {
-  final dir = await getApplicationDocumentsDirectory();
+  final dir = await getApplicationSupportDirectory();
   final _path = dir.path;
   final _file =
       isBackup ? File('$_path/$fileName.bak') : File('$_path/$fileName.gs');
