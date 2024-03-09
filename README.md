@@ -1,4 +1,7 @@
-# get_storage
+# get_storage_qnt
+
+# DO NOT USE THIS FOR YOUR OWN PROJECTS. THIS LIBRARY IS A FORK AIMED AT MY OWN PROJECTS WITH MY OWN TWEAKS NEEDS!
+
 A fast, extra light and synchronous key-value in memory, which backs up data to disk at each operation.
 It is written entirely in Dart and easily integrates with Get framework of Flutter.
 
