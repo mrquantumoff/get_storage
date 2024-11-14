@@ -1,6 +1,6 @@
 name: get_storage_qnt
 description: A fast, extra light and synchronous key-value storage written entirely in Dart
-version: 3.0.0
+version: 3.2.0
 homepage: https://github.com/mrquantumoff/get_storage_qnt
 
 environment:
@@ -10,14 +10,14 @@ dependencies:
   flutter:
     sdk: flutter
   get: ">=4.6.6"
-  path_provider: ^2.1.2
+  path_provider: ^2.1.5
   #platform_info: ^3.0.0-nullsafety.1
 
 # dependency_overrides:
 #   path: ^2.1.0
 
 dev_dependencies:
-  test: ^1.25.2
+  test: ^1.25.8
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
